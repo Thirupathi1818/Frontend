@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSRTC BUS PASS</title>
+</head>
+<body>
+    <table align="center" border="0" cellspacing="0" cellpadding="10">
+        <tr><td><img src="https://cdn.telugu360.com/wp-content/uploads/2016/05/TSRTC.jpg" width="200" height="120"></td></tr></table>
+    <h1 align="center">TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+    <h1 align="center">GENERAL BUS PASS APPLICATION</h1>
+
+    <form action="./done.html">
+       <fieldset>
+        <legend >Applicant Details</legend>
+
+        <table align="center" border="0" cellspacing="0" cellpadding="10px" width="1000" height="200">
+
+            <tr>
+                <td><label for="">Name*</label></td>
+                <td><input type="text" name="Name" id="" maxlength="20"  value="" required autofocus autocomplete="off"><p>(Maximum characters:20)</p></td>
+                <td><label for="" >Father's/Guardian's Name*</label></td>
+                <td><input type="text" name="FName" id="" maxlength="20" value="" required autocomplete="off"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Date of birth*</label><p>(dd/mm/yyyy)</p></td>
+                <td><input type="date" name="DOB" id="" value="DOB" required></td>
+                <td><label for="">Gender*</label></td>
+                <td><input type="radio" name="gender" id="" value="Female" required><label for="">Female</label><input type="radio" name="gender" id="" value="Male" required><label for="">Male</label></td>
+            </tr>
+
+            <tr>
+                <td><label for="" >Age As on:</label></td>
+                <td><input type="number" name="year" id="" value="year" min="5" max="100" required>
+                    <label for="">Year(s)</label>
+                    <input type="number" name="month" id="" value="month" min="1" max="12" required>
+                    <label for="">Month(s)</label>
+                    <input type="number" name="day" id="" value="day" min="1" max="31" required>
+                    <label for="">Day(s)</label> 
+                </td>
+                <td><label for="">Aadhaar No:</label></td>
+                <td><input type="tel" name="aadhar" id="" value="" max="12" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">WhatsApp No*</label></td>
+                <td><input type="tel" name="num" id="" value="" max="10" required></td>
+                <td><label for="">E-mail Id*:</label></td>
+                <td><input type="email" name="email" id="" value="email"  required></td>
+            </tr>
+            <tr>
+                <td><label for="">Photo*</label></td>
+                <td><input type="file" name="photo" id="" value="photo" accept=".jpg" required></td>
+            </tr>
+
+        </table>
+       </fieldset>
+
+       <fieldset>
+        <legend>Residential Address Details</legend>
+        <table align="center" border="0" cellspacing="0" celspanding="10" width="1000" height="200">
+            <tr>
+                <td><label>Applicant's Address *</label></td>
+                <td><textarea name="" id="" maxlength="20" required></textarea>
+                <p>(Maximum characters: 20)</p></td>
+                <td>District*</td>
+                <td><select required>
+                    <option value="select" disabled selected >--Select--</option>
+                    <option value="HYDERABAD">HYDERABAD</option>
+                    <option value="KARIMNAGAR">KARIMNAGAR</option>
+                    <option value="RAJANNA SIRCILLA">RAJANNA SIRCILLA</option>
+                    <option value="MEDHAK">MEDHAK</option>
+                    <option value="KAMAREDDY">KAMAREDDY</option>
+                    <option value="SIDDIPET">SIDDIPET</option>
+                    <option value="WARANGAL">WARANGAL</option>
+            
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="">Mandal*</label></td>
+                <td><select  required>
+                    <option value="select" disabled selected >--Select--</option>
+                    <option value="HYDERABAD">HYDERABAD</option>
+                    <option value="KARIMNAGAR">KARIMNAGAR</option>
+                    <option value="RAJANNA SIRCILLA">RAJANNA SIRCILLA</option>
+                    <option value="MEDHAK">MEDHAK</option>
+                    <option value="KAMAREDDY">KAMAREDDY</option>
+                    <option value="SIDDIPET">SIDDIPET</option>
+                    <option value="WARANGAL">WARANGAL</option>
+                </select></td>
+                <td><label for="">Village*</label></td>
+                <td><select required>
+                    <option value="select" disabled selected >--Select--</option>
+                    <option value="HYDERABAD">HYDERABAD</option>
+                    <option value="KARIMNAGAR">KARIMNAGAR</option>
+                    <option value="RAJANNA SIRCILLA">RAJANNA SIRCILLA</option>
+                    <option value="MEDHAK">MEDHAK</option>
+                    <option value="KAMAREDDY">KAMAREDDY</option>
+                    <option value="SIDDIPET">SIDDIPET</option>
+                    <option value="WARANGAL">WARANGAL</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="">Pincode*</label></td>
+                <td><input type="tel" name="" id="" maxlength="6" required></td>
+                
+            </tr>
+        </table>
+       </fieldset>
+
+       <fieldset>
+        <legend>Pass Type Details</legend>
+        <table align="center" border="0" cellspacing="0" cellpadding="10" width="1000" height="200">
+
+            <tr>
+                <td><label for="">City*</label></td>
+                <td>
+                    <select required>
+                    <option value="select" disabled selected >--Select--</option>
+                    <option value="HYDERABAD">HYDERABAD</option>
+                    <option value="KARIMNAGAR">KARIMNAGAR</option>
+                    <option value="RAJANNA SIRCILLA">RAJANNA SIRCILLA</option>
+                    <option value="MEDHAK">MEDHAK</option>
+                    <option value="KAMAREDDY">KAMAREDDY</option>
+                    <option value="SIDDIPET">SIDDIPET</option>
+                    <option value="WARANGAL">WARANGAL</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Pass Type*</label></td>
+                <td><select name="type" id="" required>
+                    <option value="select" disabled selected>--Select--</option>
+                    <option value="GENERAL">GENERAL ORDINARY ROUTE PASS MONTHLY</option>
+                    <option value="ORDINARY">ORDINARY PASS</option>
+                    <option value="METRO">METRO DELUEX PASS</option>
+                </select></td>
+            </tr>
+
+        </table>
+       </fieldset>
+
+       <fieldset>
+        <legend>Mode of Payment & Pass Collection</legend>
+        <table align="center" border="0" cellspacing="0" cellpadding="0" width="1000" height="200">
+            <tr>
+                <td><label for="" >Payment Mode*</label></td>
+                <td>
+                    <select name="MODE" id="" required >
+                        <option value="select" disabled selected>--Select Payment Mode--</option>
+                        <option value="AT COUNTER">Payment at Counter</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="DELIVERY">Pass Delivery Mode*</label></td>
+                <td>
+                    <select name="" id="" required>
+                        <option value="select" disabled selected>--Select Pass Delivery Mode--</option>
+                        <option value="">At Counter</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Center at which you want to Collect Pass</label></td>
+                <td>
+                    <select required>
+                    <option value="select" disabled selected >--Select--</option>
+                    <option value="HYDERABAD">HYDERABAD</option>
+                    <option value="KARIMNAGAR">KARIMNAGAR</option>
+                    <option value="RAJANNA SIRCILLA">RAJANNA SIRCILLA</option>
+                    <option value="MEDHAK">MEDHAK</option>
+                    <option value="KAMAREDDY">KAMAREDDY</option>
+                    <option value="SIDDIPET">SIDDIPET</option>
+                    <option value="WARANGAL">WARANGAL</option>
+                    </select>
+                </td>
+                
+            </tr>
+            
+        </table>
+       </fieldset>
+
+       <table align="center">
+        <tr align="center"><td><img src="./cap.png" alt="" place="center" width="200" height="100"></td></tr>
+        <tr align="center"><td><input type="text" name="" id="" required ></td></tr>
+        <tr align="center"><td><button align="center">Submit</button></td></tr>
+       
+    </table>
+
+    </form>
+    
+</body>
+</html>
